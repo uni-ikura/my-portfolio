@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+}
+
+.logo {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo-title {
+    font-family: Courier, monospace;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: .2em;
+    padding-top: 300px;
+}
+
+.logo-title-sub {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    opacity: 0.8; 
+    display: inline-block;
+    border-radius: 4px; /*角を丸くする*/
+}
+
+.btn:hover {      
+    opacity: 1;        /*カーソルが乗った時の状態を指定できる*/
+    box-shadow: none;
+}
+
+.contact {
+    background-color: gray;
+}
+
+.btn-wrapper {
+    margin: 100px 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+ul {
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+}
+ 
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 26px 10px 25px 10px;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+}
+
+header{
+    z-index: 10;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.works-title-area {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.works-title{
+    font-size: 45px;
+}
+
+.works-intro{
+    padding-bottom: 20px;
+}
+
+.works-text {
+    font-size: 20px;
+}
+
+.about-title-area {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.about-title {
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+
+.about-title-area img {
+    border-radius: 300px;
+}
+
+.about-title-area h3 {
+    padding-top: 70px;
+    font-size: 22px;
+}
+
+.about-title-area h4 {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.about-title-area h5 {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.skill-title-area {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.skill-title {
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+
+.skill-wrapper {
+    margin: 50px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h6{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold; /* 文字の太さ　(bold→一般的な文字の太さ。数値で700を指定した場合と同じ太さ)*/
+
+}
+
+.star-ratings-sprite {
+background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+font-size: 0;
+height: 21px;
+line-height: 0;
+overflow: hidden;
+text-indent: -999em;
+width: 110px;
+margin: 0 auto;
+}
+
+.star-ratings-sprite-rating {
+background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+background-position: 0 100%;
+float: left;
+height: 21px;
+display: block;
+}
+
+.skill-item {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+
+footer {
+    padding-top: 150px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:480px) {
+    img {
+        width: 100%;
+    }
+}
+
