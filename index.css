@@ -3,14 +3,27 @@ body {
     font-family: Courier, monospace;
 }
 
+@media screen and ( max-width:479px ){  /*スマホ画面対応*/
+    body {
+        font-size: 13px;
+    }
+}
+
 a {
     text-decoration: none;
 }
+
 
 .container {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+@media screen and ( max-width:479px ){
+  .container {
+      width: 100%;
+  }
 }
 
 .top-wrapper {
@@ -24,6 +37,13 @@ a {
     position: relative;
     margin-bottom: 30px;
     text-align: center;
+}
+
+@media screen and ( max-width:479px ){
+    .logo {
+        font-size: 20px;
+    }
+
 }
 
 .logo-title {
@@ -70,12 +90,15 @@ ul {
     overflow:hidden;
     list-style:none;
     margin: 0 auto;
+    background-color: pink;
+    padding: 0;
 }
  
 ul li {
     font-size: 20px;
     display: inline-block;
     padding: 26px 10px 25px 10px;
+    background-color: green;
 }
 
 a {
@@ -91,6 +114,7 @@ header{
     background-color: white;
     width: 100%;
     text-align: center;
+    background-color: blue;
 }
 
 .works-title-area {
@@ -154,6 +178,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 h6{
@@ -189,6 +214,12 @@ display: block;
     width: 15%;
 }
 
+@media screen and ( max-width:479px ){
+    .skill-item {
+        width: 50%;
+    }
+}
+
 footer {
     padding-top: 150px;
 }
@@ -199,9 +230,5 @@ footer p {
     font-size: 15px;
 }
 
-@media screen and (max-width:480px) {
-    img {
-        width: 100%;
-    }
-}
+
 
